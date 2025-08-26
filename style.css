@@ -1,1 +1,16 @@
 @charset "UTF-8";
+
+/*configs gerais*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*variaveis*/
+:root{
+    --bckg: #0B0B0E;
+    --titulos:#8C15FD;
+    --btns: #8614F7;
+    --subtTitulos: #941BFA;
+}
