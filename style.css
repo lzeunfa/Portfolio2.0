@@ -11,8 +11,10 @@
 :root{
     --bckg: #111827;
     --titulos:#8C15FD;
+    --textos: #9CA3AF;
     --btns: #8614F7;
     --subtTitulos: #941BFA;
+    --subTitulos2: white;
 }
 
 body{
@@ -22,14 +24,28 @@ body{
 }
 
 /*começo do header*/
-#container-titulo > h1,#container-titulo > h2{
+h1{
+    color: var(--subTitulos2);
+}
+
+h2{
     color: var(--titulos);
+}
+
+#h1Sou{
+    padding-right: 150px;
+}
+
+p{
+    color: var(--textos);
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 #container-img{
     background-image: linear-gradient(to bottom, var(--bckg), var(--titulos));
 
-    width: 200px;
+    width: 150px;
 
     border-radius: 20px;
 
