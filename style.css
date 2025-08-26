@@ -17,12 +17,12 @@
 
 body{
     background-color: var(--bckg);
-    
+
     padding: 10px;
 }
 
 /*começo do header*/
-header > h1,header > h2{
+#container-titulo > h1,#container-titulo > h2{
     color: var(--titulos);
 }
 
@@ -32,4 +32,6 @@ header > h1,header > h2{
     width: 200px;
 
     border-radius: 20px;
+
+    box-shadow: 1px 1px 20px var(--btns) ;
 }
