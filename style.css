@@ -9,8 +9,27 @@
 
 /*variaveis*/
 :root{
-    --bckg: #0B0B0E;
+    --bckg: #111827;
     --titulos:#8C15FD;
     --btns: #8614F7;
     --subtTitulos: #941BFA;
+}
+
+body{
+    background-color: var(--bckg);
+    
+    padding: 10px;
+}
+
+/*começo do header*/
+header > h1,header > h2{
+    color: var(--titulos);
+}
+
+#container-img{
+    background-image: linear-gradient(to bottom, var(--bckg), var(--titulos));
+
+    width: 200px;
+
+    border-radius: 20px;
 }
