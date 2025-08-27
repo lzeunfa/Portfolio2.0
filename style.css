@@ -51,3 +51,23 @@ p{
 
     box-shadow: 1px 1px 20px var(--btns) ;
 }
+
+#btnProjetos{
+    color: var(--subTitulos2);
+    
+    background-color: var(--btns);
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+#btnProjetos:hover{
+    color: var(--btns);
+
+    background-color: var(--subTitulos2);
+}
