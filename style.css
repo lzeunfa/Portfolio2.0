@@ -88,8 +88,24 @@ nav{
     justify-content: space-between;
 }
 
-#itensMenu{
+.itensMenu{
     color: var(--subTitulos2);
 
     font-weight: bold;
+
+    text-decoration: none;
+}
+
+.itensMenu:hover{
+    text-decoration: none;
+
+    color: var(--btns);
+}
+
+#sobreBody  #itemSobre{
+    color: var(--btns);
+
+    padding-bottom: 17px;
+
+    border-bottom: 2px solid var(--btns);
 }
