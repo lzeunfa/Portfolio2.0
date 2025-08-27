@@ -19,8 +19,6 @@
 
 body{
     background-color: var(--bckg);
-
-    padding: 10px;
 }
 
 /*começo do header*/
@@ -30,10 +28,6 @@ h1{
 
 h2{
     color: var(--titulos);
-}
-
-#h1Sou{
-    padding-right: 150px;
 }
 
 p{
@@ -46,6 +40,7 @@ p{
     background-image: linear-gradient(to bottom, var(--bckg), var(--titulos));
 
     width: 150px;
+    height: 190px;
 
     border-radius: 20px;
 
@@ -64,10 +59,37 @@ p{
     font-weight: bold;
 
     text-decoration: none;
+
 }
 
 #btnProjetos:hover{
     color: var(--btns);
 
     background-color: var(--subTitulos2);
+
+    transition: background-color 1s ease-out;
+
+}
+
+/* fim area do header*/
+
+/*começo area de navegação menu*/
+nav{
+    border-bottom: 1px solid var(--subTitulos2);
+
+    margin: 20px 20px;
+}
+
+#menu{
+    list-style: none;
+
+    width: 100%;
+
+    justify-content: space-between;
+}
+
+#itensMenu{
+    color: var(--subTitulos2);
+
+    font-weight: bold;
 }

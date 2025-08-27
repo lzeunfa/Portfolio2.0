@@ -10,34 +10,64 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="style.css">
+
+    <!--CSS MQ-->
+    <link rel="stylesheet" href="MQ.css">
 </head>
-<body class="p-3">
+<body class="d-flex flex-column justify-content-center">
 
-    <header>
+    <!--começo header-->
+    <header class="container mt-3">
 
-        <div id="container_header" class="d-flex justify-content-end">
+        <!--começo container para os conteudos do header-->
+        <div id="container_header" class="d-flex flex-column justify-content-center">
 
-            <div id="container-textos" class="position-absolute p-2 d-flex flex-column">
+            <div class="d-flex">
+                <!--container para os textos/conteudo do header-->
+                <div id="container-textos">
                 
-                <h2>Olá,</h2>
-                <h1 id="h1Sou" class="pb-5">Sou front-End Developer</h1>
-                <p class="text-center">Especializado em construir aplicações web responsivas e visualmente atraentes.</p>
-                <p class="text-center">Criar experiências de usuários fluídas com tecnologias web modernas é minha paixão.</p>
+                    <h2>Olá,</h2>
+                    <h1 id="h1Sou" class="pb-5">Sou front-End Developer</h1>
 
-                <a id="btnProjetos" href="#projetos" class="align-self-center">Ver Projetos</a>
+                </div>
+
+                <!--container para img perfil-->
+                <div id="container-img">
+                    <img src="IMGS/IMGEU.png" alt="img-perfil" width="150px">
+                </div>
 
             </div>
 
-            
+            <div>
+                <p class="text-start">Especializado em construir aplicações web responsivas e visualmente atraentes.</p>
+                <p class="text-start">Criar experiências de usuários fluídas com tecnologias web modernas é minha paixão.</p>
+            </div>
 
-            <div id="container-img" class="m-2">
-                <img src="IMGS/IMGEU.png" alt="img-perfil" width="150px">
+            <div class="d-flex justify-content-center m-2">
+                <!--btn para acessar a area de projetos com clique-->
+                <a id="btnProjetos" href="#projetos" class="align-self-center">Ver Projetos</a>
             </div>
 
 
         </div>
+        <!--fim do container do header-->
 
     </header>
+    <!--fim do header-->
+
+    <!--inicio area de navegação-->
+    <nav class="container d-flex justify-content-center">
+
+        <ul id="menu" class="d-flex">
+
+            <li><a id="itensMenu" href="">Sobre mim</a></li>
+            <li><a id="itensMenu" href="">Currículo</a></li>
+            <li><a id="itensMenu" href="">Tecnologias</a></li>
+
+        </ul>
+
+    </nav>
+    <!--fim arae de navegação-->
 
 </body>
 </html>
