@@ -15,6 +15,7 @@
     --btns: #8614F7;
     --subtTitulos: #941BFA;
     --subTitulos2: white;
+    --boxProjetosbckg: #1F2937;
 }
 
 body{
@@ -108,4 +109,64 @@ nav{
     padding-bottom: 17px;
 
     border-bottom: 2px solid var(--btns);
+}
+
+/*fim do nav menu*/
+
+/*começo do main sobre*/
+#sobreMim{
+    padding: 10px;
+}
+
+#sobreMim h1, #secProjetos h1{
+    color: var(--subtTitulos);
+}
+/*fim do main sobre*/
+
+/*começo section projetos*/
+#secProjetos h1{
+    text-align: center;
+}
+
+.boxProjetos{
+    background-color: var(--boxProjetosbckg);
+
+    padding: 15px;
+
+    border-radius: 20px;
+
+    border: 1px solid var(--titulos);
+
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+
+    height: 400px;
+
+    margin: 20px;
+}
+
+.boxProjetos h2{
+    color: var(--subTitulos2);
+
+    text-align: start;
+
+    font-size: 1.7em;
+}
+
+.printProjetos{
+    border-radius: 10px;
+
+    align-self: center;
+
+    margin-bottom: 10px;
+}
+
+.linkProjetos{
+    color: var(--titulos);
+}
+
+.linkProjetos:hover{
+    color: var(--titulos);
 }
