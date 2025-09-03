@@ -103,7 +103,7 @@ nav{
     color: var(--btns);
 }
 
-#sobreBody  #itemSobre{
+#sobreBody  #itemSobre, #curriculoBody #itemCurriculo, #tecBody #itemTec{
     color: var(--btns);
 
     padding-bottom: 17px;

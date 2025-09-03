@@ -1,7 +1,17 @@
 @charset "UTF-8";
 
-@media  screen and (min-width:768px) {
+@media  screen and (min-width:768px) and (max-width:991px) {
     .text-header{
         text-align: center !important;
+    }
+}
+
+@media screen and (min-width:992px){
+    #menu{
+        justify-content: center;
+    }
+
+    .itensMenu{
+        margin: 0px 50px;
     }
 }
